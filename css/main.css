@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+}
+
+.row {
+    height: 30em;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+.footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+#breakfast {
+    text-align: center;
+}
+
+caption, th, td {
+    text-align: center;
+}
