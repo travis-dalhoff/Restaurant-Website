@@ -1,28 +1,207 @@
+/*****************************
+GENERAL STYLES
+*****************************/
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/restaurant.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.row {
+    background: rgba(255, 255, 255, 0.2);
+    height: 33em;
+}
+
+h2, h3 {
+    color: #000;
+    /*text-shadow: 5px 5px #000;*/
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: bold;
+    text-decoration-style: double;
+    text-align: center;
+}
+
+.home-header {
+    margin-top: 2em;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+
+/****************************
+HEADER AND NAVBAR STYLES
+****************************/
+
 header {
     text-align: center;
 }
 
-.row {
-    height: 30em;
+.jumbotron {
+     background-image: url(../img/wood2.jpg);
+     font-family: 'Love Ya Like A Sister', cursive;
+     background-size: 100%;
+     background-repeat: no-repeat;
+     border: solid;
+     border-width: 2px;
+     border-color: #a68c4d;
 }
 
-.col-md-4 {
+.jumbotron h1 {
+    font-size: 5em;
+    color: #c1b07d;
+}
+
+.nav {
+    margin-bottom: -3em;
+}
+
+.nav a {
+    color: #c1b07d; 
+    font-size: 1.5em;
+}
+
+/******************************
+HOME PAGE STYLES
+******************************/
+
+.home-header {
     text-align: center;
 }
+
+.col-md-6 {
+    text-align: center;
+}
+
+.love {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    padding: 0;
+}
+
+.welcome {
+    margin-top: 7em;
+}
+
+/******************************
+ABOUT PAGE STYLES
+******************************/
+
+#about-info {
+    margin-top: 2.25em;
+}
+
+#about-info p {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.menu-header {
+    text-align: center;
+}
+
+#map {
+    width: 50%;
+    height: 400px;
+    background-color: grey;
+    border-style: solid;
+    border-color: #a68c4d;
+    margin-top: 2.25em;
+}
+
+/*****************************
+MENU PAGE STYLES
+*****************************/
+
+.menu-table {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.list-group-item {
+    text-align: center;
+}
+
+caption, th, td {
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #000;
+}
+
+#beer-list h3, .about-h3 {
+    text-align: center;
+}
+
+#wine-list h3 {
+    text-align: center;
+}
+
+/*****************************
+CONTACT FORM STYLES
+*****************************/
+
+.contact-p {
+    margin-top: 5em;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #000;
+    text-align: center;
+    background-color: transparent;
+    margin: 2em 2em 2em 2em;
+}
+
+button {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+}
+
+/****************************
+FOOTER
+****************************/
 
 .footer {
     margin: 0 auto;
     text-align: center;
+    color: #eaeaea;
 }
 
 .footer p {
     margin: 0;
 }
 
-#breakfast {
-    text-align: center;
-}
-
-caption, th, td {
-    text-align: center;
-}
+/*****************************
+FONTS
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Homemade Apple', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Ultra', serif;
+    font-family: 'Walter Turncoat', cursive;
+    font-family: 'Barrio', cursive;
+    font-family: 'Love Ya Like A Sister', cursive;
+*****************************/
